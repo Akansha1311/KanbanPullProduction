@@ -72,6 +72,7 @@
       let btn = document.getElementsByClassName("workcyclecomplete")[0];
       if(btn) {
         btn.addEventListener("click", function() {
+          socket.emit('workcycle complete', 'One Work Cycle Completed')
           socket.emit('dept completed', 'One Work Cycle Completed')
         })
       }
