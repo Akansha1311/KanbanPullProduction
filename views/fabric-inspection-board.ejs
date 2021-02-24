@@ -72,7 +72,7 @@
       let btn = document.getElementsByClassName("fabric-completed")[0];
       if(btn) {
       btn.addEventListener("click", function() {
-        socket.emit('dept completed', 'Task completed by Fabric')
+        socket.emit('dept completed', 'Task completed by Fabric Inspection Department')
       });
       socket.on('dept completed', msg => {
         document.getElementById("notification").muted = false;
