@@ -319,3 +319,7 @@ input[type="submit"] {
     margin: 12px 0;
   }
 }
+.available__main h3 {
+color: white;
+text-transform: capitalize;
+}
