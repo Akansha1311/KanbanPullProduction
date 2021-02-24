@@ -86,7 +86,7 @@
       let btn = document.getElementsByClassName("sewing-completed")[0];
       if(btn) {
       btn.addEventListener("click", function() {
-        socket.emit('dept completed', 'Task completed by Sewing')
+        socket.emit('dept completed', 'Task Completed By Sewing Department')
       });
     }
       socket.on("dept completed", (msg) => {
