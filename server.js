@@ -93,5 +93,5 @@ app.use("/register", require("./routes/register"));
 app.use("/logout", require("./routes/logout"));
 app.use("/task-limit", require("./routes/task-limit"));
 app.use("/subscribe", require("./routes/subscribe"));
-
+app.use("/notification-board", require("./routes/notification-board"));
 http.listen(PORT, console.log(`Server running on http://localhost:${PORT}`));
